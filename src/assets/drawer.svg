@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.607" height="39.188" viewBox="0 0 35.607 39.188">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <polygon class="a" points="2.887 2.887 2.887 38.688 6.467 38.688 6.467 35.107 29.141 35.107 29.141 38.688 32.721 38.688 32.721 2.887 2.887 2.887"/>
+  <path class="a" d="M38.221,8.387A2.337,2.337,0,0,0,40.607,6H6A2.338,2.338,0,0,0,8.387,8.387Z" transform="translate(-5.5 -5.5)"/>
+  <rect class="a" x="6.467" y="6.467" width="22.674" height="5.967"/>
+  <rect class="a" x="6.467" y="16.014" width="22.674" height="5.967"/>
+  <rect class="a" x="6.467" y="25.561" width="22.674" height="5.967"/>
+</svg>

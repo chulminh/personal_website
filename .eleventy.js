@@ -9,8 +9,8 @@ module.exports = function (eleventyConfig) {
     "jpg",
     "png",
     "svg",
-    "js",
   ]);
+  eleventyConfig.addPassthroughCopy("src/js");
 
   function sortByPageOrder(values) {
     return values.slice().sort((a, b) => a.data.order - b.data.order);
