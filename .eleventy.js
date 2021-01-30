@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
     "jpg",
     "png",
     "svg",
+    "otf",
   ]);
   eleventyConfig.addPassthroughCopy("src/js");
 

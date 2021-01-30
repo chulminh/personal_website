@@ -56,7 +56,7 @@ var rot = false;
 function rotateMenu() {
   if (rot === false) {
     //front of the drawer
-    var ffTiming = setInterval(frontFace, 10);
+    var ffTiming = setInterval(frontFace, 11);
     function frontFace() {
       if (ffWidth == 0) {
         ffStyle.display = "none";
@@ -70,7 +70,7 @@ function rotateMenu() {
     }
 
     //front legs of the drawer WIDTH
-    var fLegsTiming = setInterval(frontLegsWidth, 12);
+    var fLegsTiming = setInterval(frontLegsWidth, 13);
     function frontLegsWidth() {
       if (fLegsWidth == 0) {
         fLegsStyle.display = "none";
@@ -83,7 +83,7 @@ function rotateMenu() {
     }
 
     //DRAWER WIDTH
-    var drawTiming = setInterval(drawerWidth, 12);
+    var drawTiming = setInterval(drawerWidth, 13);
     function drawerWidth() {
       if (drawWidth == 0) {
         drawer1.display = "none";
@@ -102,7 +102,7 @@ function rotateMenu() {
     }
 
     //front legs of the drawer RIGHT
-    var fLRTiming = setInterval(frontLegsRight, 80);
+    var fLRTiming = setInterval(frontLegsRight, 81);
     function frontLegsRight() {
       if (fLegsRight == 2) {
         clearInterval(fLRTiming);
@@ -113,7 +113,7 @@ function rotateMenu() {
     }
 
     //DRAWERS RIGHT
-    var dRTiming = setInterval(drawerPosition, 80);
+    var dRTiming = setInterval(drawerPosition, 81);
     function drawerPosition() {
       if (drawPos == 2) {
         clearInterval(dRTiming);
@@ -126,7 +126,7 @@ function rotateMenu() {
     }
 
     //side of the drawer
-    var sideTiming = setInterval(sideFace, 10);
+    var sideTiming = setInterval(sideFace, 11);
     function sideFace() {
       if (sideWidth == 30) {
         clearInterval(sideTiming);
@@ -138,7 +138,7 @@ function rotateMenu() {
     }
 
     //side legs of the drawer
-    var sLegsTiming = setInterval(sideLegs, 12);
+    var sLegsTiming = setInterval(sideLegs, 13);
     function sideLegs() {
       if (sLegsWidth == 22) {
         clearInterval(sLegsTiming);
@@ -150,7 +150,7 @@ function rotateMenu() {
     }
 
     //side legs of the drawer Left
-    var sLLTiming = setInterval(sideLegsLeft, 80);
+    var sLLTiming = setInterval(sideLegsLeft, 81);
     function sideLegsLeft() {
       if (sLegsLeft == 6) {
         clearInterval(sLLTiming);
@@ -161,7 +161,7 @@ function rotateMenu() {
     }
 
     //Back Leg
-    var backLegTiming = setInterval(backLeg, 10);
+    var backLegTiming = setInterval(backLeg, 11);
     function backLeg() {
       if (bLegPos == 26) {
         clearInterval(backLegTiming);
@@ -198,7 +198,7 @@ function rotateMenu() {
     }
 
     //exPosition
-    var exPTiming = setInterval(exPosition, 25);
+    var exPTiming = setInterval(exPosition, 26);
     function exPosition() {
       if (exPos == 14) {
         clearInterval(exPTiming);
@@ -209,7 +209,7 @@ function rotateMenu() {
     }
 
     //topper
-    var topTiming = setInterval(topperWidth, 8);
+    var topTiming = setInterval(topperWidth, 9);
     function topperWidth() {
       if (topWidth == 0) {
         clearInterval(topTiming);
