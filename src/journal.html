@@ -8,6 +8,24 @@ order: 1
 <div class="wrapper">
   <section class="separator">
     <h1>Woodworking Journal</h1>
+    <div class="giveUpCounter">
+      <div id="counter"></div>
+      <h2>Times I've Wanted to Give Up</h2>
+    </div>
   </section>
-  <section class="container"></section>
+
+  <section class="container">
+    {% for item in entries.items %}
+    <div class="entry">
+      {% assign pictures = item.images %}
+      <img src="{{ pictures | first }}" alt="" />
+      <section class="entryHeader">
+        <p>{{ item.date }}, {{ item.year }}</p>
+        <div class="giveup">{{ item.give }}</div>
+      </section>
+    </div>
+    {% endfor %}
+  </section>
+
+  <script src="/js/counter.js"></script>
 </div>

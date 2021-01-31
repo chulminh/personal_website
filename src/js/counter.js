@@ -5,7 +5,7 @@ const counter = [];
 
 //for every individual tag within the "giveup" class, change from string to number then push to array
 for (var gives of giveUp) {
-  var num = parseInt(gives.innerText, 10);
+  var num = parseFloat(gives.innerText, 10);
   counter.push(num);
 }
 
