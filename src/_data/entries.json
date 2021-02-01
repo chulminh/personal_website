@@ -1,11 +1,129 @@
 {
   "items": [
     {
-      "date": "Feb 1",
-      "year": "2021",
-      "images": ["/assets/entryImages/garage.jpg", ""],
-      "entry": "Today I made stuff",
+      "date": "Dec 21",
+      "year": "2020",
+      "image": "/assets/entryImages/dec2120.jpg",
+      "content": "When the end of the road seems so close, I run into another problem like this... The mortise and tenon in one of the front legs came apart even through the glu-up. I routed a slot through the leg and skirt in order to put a floating tenon of sorts and in doing so, saw how terrible of a job I did with the joint. Next time, I'm definitely going to be taking my time with the mortise and tenons.",
+      "give": "5"
+    },
+    {
+      "date": "Dec 20",
+      "year": "2020",
+      "image": "/assets/entryImages/dec2020.jpg",
+      "content": "I'm happy that I decided to go for the inlays as they've been working out pretty well. Decided to try more complex inlays as well.",
+      "give": "0"
+    },
+    {
+      "date": "Dec 15",
+      "year": "2020",
+      "image": "/assets/entryImages/dec1520.jpg",
+      "content": "After debating whether or not I should try to cover all the tearout on the table-top with inlays or just call it before I ruin the table even more, I decided to go for the former even thought it means extending this already long project. I wanted to give up because all the tear out on the table-top was giving me a lot of greif. I'm giving this post a higher give-up rating because dealing with the constant tear-out made me truly want to throw all my tools into my neighbor's lawn.",
       "give": "10"
+    },
+    {
+      "date": "*EXTRA*",
+      "year": "2020",
+      "image": "/assets/entryImages/extra2.jpg",
+      "content": "Tried a test assembly to get an idea of what the end result would be. Gotta say, I'm very proud of how things have turned out so far.",
+      "give": "0"
+    },
+    {
+      "date": "Nov 16",
+      "year": "2020",
+      "image": "/assets/entryImages/nov1620.jpg",
+      "content": "Carving on the final front piece of the table is done! Really happy with how things have turned out :).",
+      "give": "0"
+    },
+    {
+      "date": "Nov 15",
+      "year": "2020",
+      "image": "/assets/entryImages/nov1520.jpg",
+      "content": "Last test before I carve the final reliefs into the front face of the desk! Super excited to things coming together like this.",
+      "give": "0"
+    },
+    {
+      "date": "Nov 11",
+      "year": "2020",
+      "image": "/assets/entryImages/nov1120.jpg",
+      "content": "Jointery is done! really cool to see everything dry assembled like this!",
+      "give": "0"
+    },
+    {
+      "date": "Nov 10",
+      "year": "2020",
+      "image": "/assets/entryImages/nov1020.jpg",
+      "content": "Jointery is coming along really well! My first mortise and tenons could be a lot cleaner and tigher, but I'm just happy that its all fitting together.",
+      "give": "0"
+    },
+    {
+      "date": "Nov 4",
+      "year": "2020",
+      "image": "/assets/entryImages/nov0420.jpg",
+      "content": "Using the 1/16th in bit has been really fun and I'm really liking the results.",
+      "give": "0"
+    },
+    {
+      "date": "Nov 2",
+      "year": "2020",
+      "image": "/assets/entryImages/nov0220.jpg",
+      "content": "Tried using a router for carvings and am really excited with the results. the smallest bit that I have at the moment is 1/8th in so I ordered a 1/16th in bit.",
+      "give": "0"
+    },
+    {
+      "date": "Oct 31",
+      "year": "2020",
+      "image": "/assets/entryImages/oct3120.jpg",
+      "content": "Started carving tests as I plan the carvings that I want to put onto the hard maple desk I am building. Taking a while to do all by hand though so I want to try some stuff with my router",
+      "give": "0"
+    },
+    {
+      "date": "*EXTRA*",
+      "image": "/assets/entryImages/extra1.jpg",
+      "content": "My jointer/planer setup! Honestly really happy with this tool and how clean the faces have been coming out. My only qualm with it is that the planer isn't planing exactly parallel and so my stock comes out as rhombuses instead of squares, but I think that's user error and very fixable with the right tools/gauges. For that reason I give my setup a give-up rating of 1",
+      "give": "1"
+    },
+    {
+      "date": "Oct 28",
+      "year": "2020",
+      "image": "/assets/entryImages/oct2820.jpg",
+      "content": "Leg blanks all glued up! This process went smooth ish all around (milling and gluing) however I found that some of the stock that I bought was way too figured to properly mill. It took my a while to commit to using different pieces for the last leg but in the end I'm very glad that I did. My bass guitar build will have to wait",
+      "give": "1"
+    },
+    {
+      "date": "Oct 22",
+      "year": "2020",
+      "image": "/assets/entryImages/oct2220.jpg",
+      "content": "Went out and bought 26 board ft of hard maple from Hardwood Lumber Co in Dallas. I had originally intended to buy alder wood but hard maple was only a dollar more per bd ft so I went with it instead. I know I promised myself that I'd start with a cheaper wood so as not to get too precious with my first table build ever, but I just couldn't resist the opportunity to work with such a nice wood.",
+      "give": "0"
+    },
+    {
+      "date": "Oct 14",
+      "year": "2020",
+      "image": "/assets/entryImages/oct1420.jpg",
+      "content": "Installing the tail vise went a lot smoother than I had expected - the dado I cut to join the MDF top and red oak jaws went super well. Luckily, the alignment was decent in the end (although the jaws don't meet up perfectly) even though I hadn't planned for it. Finding the right screws was a pain in the butt as the threads of screws that came with the vise were too fine and the head of the ones I bought were too big and didn't fit in certain holes because of it, but in the end I left a few out and it seemed to work out alright.",
+      "give": "1"
+    },
+    {
+      "date": "Oct 13",
+      "year": "2020",
+      "image": "/assets/entryImages/oct1320.jpg",
+      "content": "",
+      "give": "4"
+    },
+    {
+      "date": "Aug 26",
+      "year": "2020",
+      "image": "/assets/entryImages/aug2620.jpg",
+      "content": "",
+      "give": "2"
+    },
+    {
+      "date": "Aug 24",
+      "year": "2020",
+      "image": "/assets/entryImages/aug2420.jpg",
+      "content": "The start (or more like middle) of a pine work bench! I thought I could go without buying clamps, but at least its coming together now. Wanted to give up just a little when thinking about the cost of clamps",
+      "give": "1"
     }
   ]
 }

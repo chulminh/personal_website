@@ -7,9 +7,19 @@
   }
 }
 
+.journalContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
 .entry {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   position: relative;
   margin: 5px;
   animation-name: pageOpTransition;
@@ -60,4 +70,10 @@
   padding: 3px 8px;
   border-radius: 3px;
   font-family: "Roboto Mono", "Work Sans", sans-serif;
+  width: fit-content;
+  height: fit-content;
+}
+
+.hidden {
+  display: none;
 }

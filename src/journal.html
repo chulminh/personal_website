@@ -14,18 +14,21 @@ order: 1
     </div>
   </section>
 
-  <section class="container">
-    {% for item in entries.items %}
-    <div class="entry">
-      {% assign pictures = item.images %}
-      <img src="{{ pictures | first }}" alt="" />
+  <ul class="journalContainer">
+    {% assign journal = collections.entries | sortByPageOrder %} {% for item in
+    journal %}
+    <li class="entry">
+      <img src="{{ item.data.image}}" alt="" />
       <section class="entryHeader">
-        <p>{{ item.date }}, {{ item.year }}</p>
-        <div class="giveup">{{ item.give }}</div>
+        <p>
+          {{ item.data.day }}{% if item.data.year %}, {{ item.data.year }}{%
+          else %}{% endif %}
+        </p>
+        <div class="giveup">{{ item.data.give }}</div>
       </section>
-    </div>
+    </li>
     {% endfor %}
-  </section>
+  </ul>
 
   <script src="/js/counter.js"></script>
 </div>
