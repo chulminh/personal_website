@@ -1,10 +1,20 @@
 ---
 pagination:
-  data: entriess.items
+  data: wwJournal.entries
   size: 1
   alias: entry
-permalink: "test/{{ entry.date | slug }}/"
+permalink: "test/{{ entry.date | date: '%b %d, %Y' }}/index.html"
 layout: base.html
 ---
 
-{{ items.date }} {{ items.year }}
+<div class="wrapper">
+  <section class="title">
+    <h1>Woodworking Journal</h1>
+    <h2>{{ entry.date }}</h2>
+    <div class="giveUpCounter">
+      <div id="counter"></div>
+      <h2>Times I've Wanted to Give Up</h2>
+    </div>
+  </section>
+  <script src="/js/counter.js"></script>
+</div>

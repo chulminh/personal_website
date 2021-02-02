@@ -15,16 +15,14 @@ order: 1
   </section>
 
   <ul class="journalContainer">
-    {% for item in entriess.items %}
+    {% for entry in wwJournal.entries %}
     <li class="entry">
-      <a href="entriess/{{ item.date }}/">
-        <img src="{{ item.image}}" alt="" />
+      <a href="/test/{{ entry.date | date: '%b %d, %Y' }}/index.html">
+        {% assign pictures = entry.images %}
+        <img src="{{ pictures | first }}" alt="" />
         <div class="entryHeader">
-          <p>
-            {{ item.date }}{% if item.year %}, {{ item.year }}{% else %}{% endif
-            %}
-          </p>
-          <div class="giveup">{{ item.give }}</div>
+          <p>{{ entry.date | date: '%b %d, %Y' }}</p>
+          <div class="giveup">{{ entry.give }}</div>
         </div>
       </a>
     </li>
