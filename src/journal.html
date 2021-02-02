@@ -6,7 +6,7 @@ order: 1
 ---
 
 <div class="wrapper">
-  <section class="separator">
+  <section class="title">
     <h1>Woodworking Journal</h1>
     <div class="giveUpCounter">
       <div id="counter"></div>
@@ -15,17 +15,18 @@ order: 1
   </section>
 
   <ul class="journalContainer">
-    {% assign journal = collections.entries | sortByPageOrder %} {% for item in
-    journal %}
+    {% for item in entriess.items %}
     <li class="entry">
-      <img src="{{ item.data.image}}" alt="" />
-      <section class="entryHeader">
-        <p>
-          {{ item.data.day }}{% if item.data.year %}, {{ item.data.year }}{%
-          else %}{% endif %}
-        </p>
-        <div class="giveup">{{ item.data.give }}</div>
-      </section>
+      <a href="entriess/{{ item.date }}/">
+        <img src="{{ item.image}}" alt="" />
+        <div class="entryHeader">
+          <p>
+            {{ item.date }}{% if item.year %}, {{ item.year }}{% else %}{% endif
+            %}
+          </p>
+          <div class="giveup">{{ item.give }}</div>
+        </div>
+      </a>
     </li>
     {% endfor %}
   </ul>

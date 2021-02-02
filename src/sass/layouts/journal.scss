@@ -36,6 +36,12 @@
   p {
     padding: 3px;
   }
+
+  a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
 }
 
 .entryHeader {
@@ -44,6 +50,13 @@
   opacity: 0.8;
   padding: 10px;
   justify-content: space-between;
+
+  p {
+    color: black;
+    padding: none;
+    margin: none;
+    display: block;
+  }
 }
 
 .entry:hover {
@@ -63,8 +76,18 @@
   }
 }
 
+@keyframes highlight {
+  0% {
+    border: 3px solid white;
+  }
+
+  100% {
+    border: 3px solid yellow;
+  }
+}
+
 .giveup {
-  display: inline;
+  display: block;
   background-color: black;
   color: white;
   padding: 3px 8px;
@@ -72,8 +95,4 @@
   font-family: "Roboto Mono", "Work Sans", sans-serif;
   width: fit-content;
   height: fit-content;
-}
-
-.hidden {
-  display: none;
 }

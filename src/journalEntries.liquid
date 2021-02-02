@@ -1,0 +1,10 @@
+---
+pagination:
+  data: entriess.items
+  size: 1
+  alias: entry
+permalink: "test/{{ entry.date | slug }}/"
+layout: base.html
+---
+
+{{ items.date }} {{ items.year }}

@@ -22,7 +22,7 @@
       "give": "10"
     },
     {
-      "date": "*EXTRA*",
+      "date": "EXTRA",
       "year": "2020",
       "image": "/assets/entryImages/extra2.jpg",
       "content": "Tried a test assembly to get an idea of what the end result would be. Gotta say, I'm very proud of how things have turned out so far.",
@@ -78,7 +78,7 @@
       "give": "0"
     },
     {
-      "date": "*EXTRA*",
+      "date": "EXTRA",
       "image": "/assets/entryImages/extra1.jpg",
       "content": "My jointer/planer setup! Honestly really happy with this tool and how clean the faces have been coming out. My only qualm with it is that the planer isn't planing exactly parallel and so my stock comes out as rhombuses instead of squares, but I think that's user error and very fixable with the right tools/gauges. For that reason I give my setup a give-up rating of 1",
       "give": "1"
@@ -108,14 +108,14 @@
       "date": "Oct 13",
       "year": "2020",
       "image": "/assets/entryImages/oct1320.jpg",
-      "content": "",
+      "content": "Plywood and MDF workbench Done! It took a while to get done because I had to return my tools and buy different ones (table saw -> circular saw, corded router ->) cordless router and also because I had to figure out how to rip baords and cut to equal lengths, but I'm super happy with how sturdy and heavy this table came out. Was definitely stressful though hahaha",
       "give": "4"
     },
     {
       "date": "Aug 26",
       "year": "2020",
       "image": "/assets/entryImages/aug2620.jpg",
-      "content": "",
+      "content": "Pine work bench all done! I definitely restricted my design based on cost, which in hindsight I should have spent the extra few dollars to make a wider table. The work bench is too narrow to use properly :(. I'm going to go with my original plan (which was a bit more expensive) of making a Rob Cosman style work bench",
       "give": "2"
     },
     {
