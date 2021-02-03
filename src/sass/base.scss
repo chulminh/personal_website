@@ -1,4 +1,16 @@
+/*@font-face {
+  font-family: "Lily of the Valley";
+  src: url("/assets/LilyOfTheValley.otf") format("opentype");
+}*/
+
 * {
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+  }
+
   margin: 0;
 
   a {
@@ -7,22 +19,34 @@
   }
 }
 
-@font-face {
-  font-family: "Lily of the Valley";
-  src: url("/assets/LilyOfTheValley.otf") format("opentype");
-}
-
 body {
   font-family: "Work Sans", sans-serif;
-  //background-color: #c0dec7;
 }
 
-.wrapper {
-  margin-left: 120px;
-  min-height: calc(100vh - 100px);
+.mainContainer {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
+  width: 49%;
+  min-height: 300px;
+  height: 75vh;
+
+  p {
+    padding: 10px;
+    border: 1px solid;
+    margin: 0 0 20px 0;
+  }
+}
+
+.pictures {
+  img {
+    width: 100%;
+  }
 }

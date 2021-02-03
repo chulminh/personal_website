@@ -12,20 +12,24 @@ layout: base.html
   <h3>{{ entry.date }}</h3>
 </section>
 
-<section class="container">
-  {% assign pictures = entry.images %} {% for item in pictures %}
-  <div class="entryPage">
-    <img src="{{ item }}" alt="" />
-  </div>
-  {% endfor %}
+<div class="flexContainer">
+  <section class="container">
+    <div>
+      {% assign pictures = entry.images %} {% for item in pictures %}
+      <div class="pictures">
+        <img src="{{ item }}" alt="" />
+      </div>
+      {% endfor %}
+    </div>
+  </section>
 
-  <div class="entryPage">
+  <section class="container">
     <p>{{ entry.content }}</p>
     <p>
       I wanted to give up <span class="giveup">{{ entry.give }}</span> times
       this post
     </p>
-  </div>
-</section>
+  </section>
+</div>
 
 <script src="/js/counter.js"></script>

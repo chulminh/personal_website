@@ -1,12 +1,13 @@
 header {
-  width: 120px;
-  height: 100%;
-  position: fixed;
-  background-color: white;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
 }
 
-.name {
-  display: block;
-  width: 60px;
-  margin: 30px auto;
+.logo {
+  width: 70px;
+  height: fit-content;
+  align-self: center;
+  margin: 0 20px;
 }

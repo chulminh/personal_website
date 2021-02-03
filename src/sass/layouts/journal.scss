@@ -1,87 +1,36 @@
-@keyframes pageOpTransition {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.journalContainer {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-
-  li {
-    list-style: none;
-  }
-}
-
 .entry {
-  width: 200px;
-  height: 200px;
   position: relative;
-  margin: 5px;
-  animation-name: pageOpTransition;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
+  width: 150px;
+  height: 150px;
 
   img {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
-    position: absolute;
-  }
-
-  p {
-    padding: 3px;
-  }
-
-  a {
-    margin: 0;
-    padding: 0;
   }
 }
 
 .entryHeader {
   display: none;
-  background-color: white;
-  opacity: 0.8;
-  padding: 10px;
   justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  background-color: #ffffff;
+  opacity: 0.8;
+  align-content: center;
 
   p {
-    color: black;
-    padding: none;
-    margin: none;
-    display: block;
+    align-self: center;
+    padding: 8px;
   }
 }
 
 .entry:hover {
   .entryHeader {
-    display: flex;
     animation-name: opacity;
     animation-duration: 0.5s;
-  }
-}
-
-@keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0.8;
-  }
-}
-
-@keyframes highlight {
-  0% {
-    border: 3px solid white;
-  }
-
-  100% {
-    border: 3px solid yellow;
+    animation-iteration-count: 1;
+    display: flex;
   }
 }
 
@@ -94,22 +43,15 @@
   font-family: "Roboto Mono", "Work Sans", sans-serif;
   width: fit-content;
   height: fit-content;
+  margin: auto;
 }
 
-//entry page stuff
-
-.entryPage {
-  display: block;
-  width: 45%;
-  margin: 2%;
-
-  img {
-    width: 100%;
+@keyframes opacity {
+  0% {
+    opacity: 0;
   }
 
-  p {
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0 0 20px 0;
+  100% {
+    opacity: 0.8;
   }
 }
