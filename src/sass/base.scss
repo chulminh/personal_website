@@ -1,5 +1,10 @@
 * {
   margin: 0;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
 }
 
 @font-face {
@@ -14,66 +19,10 @@ body {
 
 .wrapper {
   margin-left: 120px;
+  min-height: calc(100vh - 100px);
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-}
-
-.box {
-  display: flex;
-  justify-self: space-around;
-  justify-content: space-around;
-  width: 550px;
-  margin: 50px auto;
-
-  h1 {
-    display: flex;
-    font-size: 46px;
-    margin: 10px;
-    font-weight: 700;
-  }
-}
-
-.title {
-  background-color: white;
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-  h1 {
-    font-size: 40px;
-    font-weight: 400;
-    padding: 25px 0;
-    margin-right: 5%;
-  }
-}
-
-.giveUpCounter {
-  display: flex;
-  padding: 5px;
-  margin: auto 5% auto 0;
-
-  h2 {
-    width: 110px;
-    font-weight: 400;
-    font-size: 20px;
-    margin-left: 15px;
-  }
-}
-
-#counter {
-  font-size: 50px;
-  color: white;
-  display: block;
-  background-color: black;
-  border-radius: 5px;
-  width: fit-content;
-  height: fit-content;
-  text-align: center;
-  font-family: "Roboto Mono", "Work Sans", sans-serif;
-  padding: 3px 15px;
 }

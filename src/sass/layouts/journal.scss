@@ -40,7 +40,6 @@
   a {
     margin: 0;
     padding: 0;
-    text-decoration: none;
   }
 }
 
@@ -87,7 +86,7 @@
 }
 
 .giveup {
-  display: block;
+  display: inline-block;
   background-color: black;
   color: white;
   padding: 3px 8px;
@@ -95,4 +94,22 @@
   font-family: "Roboto Mono", "Work Sans", sans-serif;
   width: fit-content;
   height: fit-content;
+}
+
+//entry page stuff
+
+.entryPage {
+  display: block;
+  width: 45%;
+  margin: 2%;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0 0 20px 0;
+  }
 }

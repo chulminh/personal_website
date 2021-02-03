@@ -1,0 +1,32 @@
+---
+layout: base.html
+pageTitle: Journal
+tags: nav
+order: 1
+---
+
+<section class="title">
+  <h1>WOODWORKING JOURNAL</h1>
+
+  <div class="giveUpCounter">
+    <div id="counter"></div>
+    <h2>Total Times I've Wanted to Give Up</h2>
+  </div>
+</section>
+
+<ul class="journalContainer">
+  {% for entry in wwJournal.entries %}
+  <li class="entry">
+    <a href="/journalEntries/{{ entry.date | date: '%b %d, %Y' }}/index.html">
+      {% assign pictures = entry.images %}
+      <img src="{{ pictures | first }}" alt="" />
+      <div class="entryHeader">
+        <p>{{ entry.date | date: '%b %d, %Y' }}</p>
+        <div class="giveup">{{ entry.give }}</div>
+      </div>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<script src="/js/counter.js"></script>

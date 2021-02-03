@@ -1,0 +1,22 @@
+footer {
+  height: 100px;
+  margin-left: 120px;
+  margin: auto;
+  ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    height: inherit;
+  }
+
+  li {
+    list-style: none;
+    text-align: center;
+    align-self: center;
+  }
+}
+
+.ig {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,23 @@
+.title {
+  background-color: white;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 25px 0;
+    margin-right: 5%;
+    font-family: "niveau-grotesk-small-caps", sans-serif;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: 200;
+    padding: 25px 0;
+    margin-right: 5%;
+  }
+}
