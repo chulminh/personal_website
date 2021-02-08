@@ -14,34 +14,38 @@
   margin: 0;
 
   a {
-    color: black;
+    color: #ffffff;
     text-decoration: none;
   }
 }
 
 body {
   font-family: "Work Sans", sans-serif;
+
+  background-color: $bgcolor;
 }
 
 .mainContainer {
-  width: 75%;
-  margin: 0 auto;
+  margin: 0 10px 0 150px;
 }
 
 .flexContainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  min-height: 85vh;
+  color: $txtcolor;
+  width: 100%;
 }
 
 .container {
   width: 49%;
-  min-height: 300px;
-  height: 75vh;
 
   p {
     padding: 10px;
-    border: 1px solid;
     margin: 0 0 20px 0;
+    background-color: #ffffff;
+    color: #000000;
   }
 }
 

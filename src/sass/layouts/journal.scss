@@ -2,6 +2,8 @@
   position: relative;
   width: 150px;
   height: 150px;
+  border: 5px solid $bgcolor;
+  margin: 2.5px;
 
   img {
     width: 150px;
@@ -22,10 +24,12 @@
   p {
     align-self: center;
     padding: 8px;
+    color: #000;
   }
 }
 
 .entry:hover {
+  border: 5px solid yellow;
   .entryHeader {
     animation-name: opacity;
     animation-duration: 0.5s;

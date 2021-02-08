@@ -1,13 +1,57 @@
 header {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  height: 70px;
+  width: 100px;
+  position: fixed;
+  margin: 20px;
 }
 
 .logo {
-  width: 70px;
+  width: 75px;
   height: fit-content;
+  transform: rotate(7deg);
+}
+
+/*.menuContainer {
+  width: 70px;
+  height: 36px;
   align-self: center;
-  margin: 0 20px;
+  margin: 20px auto;
+}*/
+
+.site_nav {
+  position: relative;
+  align-self: center;
+  margin: 20px 0 70px 0;
+
+  a {
+    text-decoration: none;
+    color: $txtcolor;
+    display: block;
+    font-size: 14px;
+    border: 1px solid $bgcolor;
+    padding: 5px 10px;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  li {
+    width: inherit;
+    height: fit-content;
+    margin: 5px auto;
+    border: 1px solid $bgcolor;
+  }
+
+  [aria-current] {
+    border: 1px solid $txtcolor;
+  }
+}
+
+.site_nav li:hover {
+  background-color: white;
+  a {
+    color: $bgcolor;
+  }
 }

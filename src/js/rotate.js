@@ -44,12 +44,6 @@ var exBotAngle = 0;
 const topper = document.getElementById("topRight").style;
 var topWidth = 34;
 
-//nav and menu selectors
-const menuHeader = document.querySelector("header").style;
-var menuWidth = 100;
-const navSelect = document.getElementsByClassName("nav_options").style;
-var navOpacity = 0;
-
 //boolean
 var rot = false;
 

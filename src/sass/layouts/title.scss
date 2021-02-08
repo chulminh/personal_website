@@ -1,21 +1,26 @@
-.title {
-  height: 100px;
+.titleHeader {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: center;
-  margin: 0;
-  grid-column: 1 / 9;
-
-  h1 {
-    font-size: 40px;
-    font-weight: 700;
-    font-family: "niveau-grotesk-small-caps", sans-serif;
-    align-self: center;
-  }
+  box-sizing: border-box;
+  color: $txtcolor;
 
   h3 {
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 200;
+    height: fit-content;
+    align-self: center;
+  }
+}
+
+.title {
+  height: 80px;
+  display: flex;
+
+  h1 {
+    font-size: 46px;
+    font-weight: 400;
+    align-self: center;
+    font-style: italic;
   }
 }

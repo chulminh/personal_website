@@ -1,23 +1,26 @@
 .giveUpCounter {
   display: flex;
+  height: 80px;
 
   h2 {
-    width: 130px;
+    width: 110px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 15px;
+    align-self: center;
   }
 }
 
 #counter {
-  font-size: 50px;
-  color: white;
+  font-size: 46px;
+  color: $bgcolor;
   display: block;
-  background-color: black;
+  background-color: $txtcolor;
   border-radius: 5px;
   width: fit-content;
   height: fit-content;
   text-align: center;
   font-family: "Roboto Mono", "Work Sans", sans-serif;
-  padding: 3px 15px;
+  padding: 4px 8px;
+  align-self: center;
 }

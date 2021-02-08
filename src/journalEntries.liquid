@@ -7,9 +7,13 @@ permalink: "journalEntries/{{ entry.date | date: '%b %d, %Y' }}/index.html"
 layout: base.html
 ---
 
-<section class="title">
-  <h1><a href="/pages/journal">WOODWORKING JOURNAL:</a></h1>
-  <h3>{{ entry.date }}</h3>
+<section class="titleHeader">
+  <div class="title">
+    <h1><a href="/pages/journal">WOODWORKING JOURNAL:</a></h1>
+  </div>
+  <div class="title">
+    <h3>{{ entry.date }}</h3>
+  </div>
 </section>
 
 <div class="flexContainer">
@@ -31,5 +35,3 @@ layout: base.html
     </p>
   </section>
 </div>
-
-<script src="/js/counter.js"></script>

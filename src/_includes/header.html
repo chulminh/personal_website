@@ -1,7 +1,32 @@
 <header>
-  {% include menu.html %}
   <div class="logo">
-    <a href="/index.html"> <img src="/assets/logo.svg" alt="Chulmin Han" /></a>
+    <a href="/index.html">
+      <img src="/assets/logo.svg" alt="Chulmin Han" />
+    </a>
   </div>
-  {% include nav.html %}
+  <!--<div class="menuContainer">{% include menu.html %}</div>-->
+
+  <nav class="site_nav">
+    <ul>
+      {% assign worksNav = collections.worksNav | sortByPageOrder %} {% for item in worksNav %}
+  
+      <li {% if page.url == item.url %} aria-current="page" {% endif %}>
+        <a href="{{item.url}}">{{ item.data.pageTitle }}</a>
+      </li>
+  
+      {% endfor %}
+    </ul>
+  </nav>
+
+    <nav class="site_nav">
+      <ul>
+        {% assign nav = collections.nav | sortByPageOrder %} {% for item in nav %}
+    
+        <li {% if page.url == item.url %} aria-current="page" {% endif %}>
+          <a href="{{item.url}}">{{ item.data.pageTitle }}</a>
+        </li>
+    
+        {% endfor %}
+      </ul>
+    </nav>
 </header>

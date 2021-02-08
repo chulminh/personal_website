@@ -14,8 +14,7 @@
   </head>
 
   <body>
-    <div class="mainContainer">
-      {% include header.html %} {{ content }} {% include footer.html %}
-    </div>
+    {% include header.html %}
+    <div class="mainContainer">{{ content }} {% include footer.html %}</div>
   </body>
 </html>

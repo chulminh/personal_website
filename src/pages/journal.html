@@ -2,11 +2,13 @@
 layout: base.html
 pageTitle: Journal
 tags: nav
-order: 1
+order: 2
 ---
 
-<section class="title">
-  <h1>WOODWORKING JOURNAL</h1>
+<section class="titleHeader">
+  <div class="title">
+    <h1>WOODWORKING JOURNAL</h1>
+  </div>
 
   <div class="giveUpCounter">
     <div id="counter"></div>
@@ -14,20 +16,21 @@ order: 1
   </div>
 </section>
 
-<div class="flexContainer"></div>
-<ul>
-  {% for entry in wwJournal.entries %}
-  <li class="entry">
-    <a href="/journalEntries/{{ entry.date | date: '%b %d, %Y' }}/index.html">
-      <div class="entryHeader">
-        <p>{{ entry.date | date: '%b %d, %Y' }}</p>
-        <div class="giveup">{{ entry.give }}</div>
-      </div>
-      {% assign pictures = entry.images %}
-      <img src="{{ pictures | first }}" alt="" />
-    </a>
-  </li>
-  {% endfor %}
-</ul>
+<div class="flexContainer">
+  <ul>
+    {% for entry in wwJournal.entries %}
+    <li class="entry">
+      <a href="/journalEntries/{{ entry.date | date: '%b %d, %Y' }}/index.html">
+        <div class="entryHeader">
+          <p>{{ entry.date | date: '%b %d, %Y' }}</p>
+          <div class="giveup">{{ entry.give }}</div>
+        </div>
+        {% assign pictures = entry.images %}
+        <img src="{{ pictures | first }}" alt="" />
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 
 <script src="/js/counter.js"></script>

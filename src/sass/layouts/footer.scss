@@ -1,4 +1,26 @@
+footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: flex-end;
+  color: $txtcolor;
+
+  ul {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  li {
+    align-self: center;
+    padding: 5px;
+    font-size: 18px;
+  }
+}
+
 .ig {
   width: 30px;
   height: 30px;
+  --color: #ffffff;
 }
